@@ -1,0 +1,27 @@
+{
+  "name": "taski",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "echo \"Some big script to build your app\"",
+    "test": "echo \"Some big script to build your app\"",
+    "sonar": "node sonar.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "connect-history-api-fallback": "^1.6.0",
+    "express": "~4.16.1",
+    "express-cache-controller": "^1.1.0",
+    "express-force-ssl": "^0.3.2",
+    "express-static-gzip": "^2.1.0",
+    "knex": "^0.21.12",
+    "mysql": "^2.18.1",
+    "xml": "^1.0.1",
+    "xml-writer": "^1.7.0"
+  },
+  "devDependencies": {
+    "sonarqube-scanner": "^2.7.0"
+  }
+
+}

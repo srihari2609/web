@@ -1,0 +1,7 @@
+node_modules
+sonar.js
+Dockerfile
+server.csr
+taSkiweb.yaml
+server.key
+.dockerignore
